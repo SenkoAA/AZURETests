@@ -18,7 +18,7 @@ Statement stmt = null;
 %>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-connection = DriverManager.getConnection("jdbc:mysql://us-cdbr-azure-southcentral-f.cloudapp.net:3306/mygooddb", "bae334fd2b33cd", "f0534483");
+connection = DriverManager.getConnection(Database=mygooddb;Data Source=us-cdbr-azure-southcentral-f.cloudapp.net;User Id=bae334fd2b33cd;Password=f0534483"jdbc:mysql://us-cdbr-azure-southcentral-f.cloudapp.net:3306/mygooddb", "bae334fd2b33cd", "f0534483");
 out.println("Connection has been created!");
 stmt = connection.createStatement();
 out.println("Statement created!");

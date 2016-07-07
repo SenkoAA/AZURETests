@@ -14,15 +14,18 @@
 
 <%!
 Connection connection = null;
-Statement stmt = null;
 %>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-connection = DriverManager.getConnection("jdbc:mysql://us-cdbr-azure-southcentral-f.cloudapp.net:3306/mygooddb", "bae334fd2b33cd", "f0534483");
+connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbtests1", "root", "root");
 out.println("Connection has been created!");
-stmt = connection.createStatement();
-out.println("Statement created!");
+Statement stmt = connection.createStatement();
 stmt.close();
+
+
+
+
+
 %>
 
 </body>
