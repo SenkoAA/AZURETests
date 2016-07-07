@@ -1,3 +1,0 @@
-INDEX VERSION 1.127+C:\Users\Alexey\AZURETests\AZURETests\.metadata\.plugins\org.eclipse.jdt.core
-588936815.index
-2485299601.index
