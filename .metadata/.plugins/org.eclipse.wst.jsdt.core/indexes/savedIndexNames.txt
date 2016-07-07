@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+C:\Users\Alexey\AZURETests\AZURETests\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2370146559.index
+954825888.index
+588936815.index
+2005652867.index
+4266684297.index
+2774382756.index
+480898083.index
